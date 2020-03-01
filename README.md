@@ -1,2 +1,2 @@
-# swabha1-github.io
-Portfolio website of my work done so far.
+# swapnil-bhamat.github.io
+Resume website of the work that I have done so far.
