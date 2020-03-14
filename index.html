@@ -11,22 +11,33 @@
 
     <title>Resume - Swapnil Pramod Bhamat</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-
     <!-- Custom fonts for this template -->
     <link
       href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700"
       rel="stylesheet"
+      type="text/css"
     />
     <link
       href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i"
       rel="stylesheet"
+      type="text/css"
     />
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" />
 
+    <!-- Bootstrap core CSS -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
     <!-- Custom styles for this template -->
-    <link href="css/resume.min.css" rel="stylesheet" />
+    <link href="css/resume.min.css" type="text/css" rel="stylesheet" />
   </head>
 
   <body id="page-top">
@@ -38,8 +49,8 @@
         <span class="d-block d-lg-none">Swapnil Bhamat</span>
         <span class="d-none d-lg-block">
           <img
-            class="img-fluid img-profile rounded-circle mx-auto mb-2"
-            src="img/profile.jpg"
+            class="img-fluid img-profile rounded-circle mx-auto mb-2 lazyload"
+            data-src="img/profile.jpg"
             alt=""
           />
         </span>
@@ -187,11 +198,12 @@
           <h2 class="mb-5">Projects</h2>
 
           <div class="card mb-5">
-            <img
-              src="./img/artifi.png"
-              class="card-img-top"
-              alt="artifi labs"
-            />
+            <a target="_blank" href="https://www.artifilabs.com/"
+              ><img
+                data-src="./img/artifi.jpg"
+                class="card-img-top lazyload"
+                alt="artifi labs"
+            /></a>
             <div class="card-body">
               <h5 class="card-title">
                 <a target="_blank" href="https://www.artifilabs.com/"
@@ -262,7 +274,12 @@
           </div>
 
           <div class="card mb-5">
-            <img src="./img/haverty.png" class="card-img-top" alt="Haverty" />
+            <a target="_blank" href="https://www.havertys.com/"
+              ><img
+                data-src="./img/haverty.jpg"
+                class="card-img-top lazyload"
+                alt="Haverty"
+            /></a>
             <div class="card-body">
               <h5 class="card-title">
                 <a target="_blank" href="https://www.havertys.com/"
@@ -295,11 +312,12 @@
           </div>
 
           <div class="card mb-5">
-            <img
-              src="./img/sleepId.png"
-              class="card-img-top"
-              alt="SleepId (King Koil)"
-            />
+            <a target="_blank" href="https://www.kingkoil.in/sleepid"
+              ><img
+                data-src="./img/sleepId.jpg"
+                class="card-img-top lazyload"
+                alt="SleepId (King Koil)"
+            /></a>
             <div class="card-body">
               <h5 class="card-title">
                 <a target="_blank" href="https://www.kingkoil.in/sleepid"
@@ -473,11 +491,24 @@
     </div>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js" defer></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js" defer></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+      defer
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"
+      defer
+    ></script>
 
     <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js" defer></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"
+      defer
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.0/lazysizes.min.js"
+      async=""
+    ></script>
 
     <!-- Custom scripts for this template -->
     <script src="js/resume.min.js" defer></script>
