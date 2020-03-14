@@ -11,22 +11,33 @@
 
     <title>Resume - Swapnil Pramod Bhamat</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-
     <!-- Custom fonts for this template -->
     <link
       href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700"
       rel="stylesheet"
+      type="text/css"
     />
     <link
       href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i"
       rel="stylesheet"
+      type="text/css"
     />
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" />
 
+    <!-- Bootstrap core CSS -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
     <!-- Custom styles for this template -->
-    <link href="css/resume.min.css" rel="stylesheet" />
+    <link href="css/resume.min.css" type="text/css" rel="stylesheet" />
   </head>
 
   <body id="page-top">
@@ -38,8 +49,8 @@
         <span class="d-block d-lg-none">Swapnil Bhamat</span>
         <span class="d-none d-lg-block">
           <img
-            class="img-fluid img-profile rounded-circle mx-auto mb-2"
-            src="img/profile.jpg"
+            class="img-fluid img-profile rounded-circle mx-auto mb-2 lazyload"
+            data-src="img/profile.jpg"
             alt=""
           />
         </span>
@@ -186,17 +197,22 @@
         <div class="w-100">
           <h2 class="mb-5">Projects</h2>
 
-          <div
-            class="project-item d-flex flex-column flex-md-row justify-content-between mb-5"
-          >
-            <div class="project-content">
-              <h3 class="mb-0">
+          <div class="card mb-5">
+            <a target="_blank" href="https://www.artifilabs.com/"
+              ><img
+                data-src="./img/artifi.jpg"
+                class="card-img-top lazyload"
+                alt="artifi labs"
+            /></a>
+            <div class="card-body">
+              <h5 class="card-title">
                 <a target="_blank" href="https://www.artifilabs.com/"
                   >Artifi Labs</a
                 >
-              </h3>
-              <div class="subheading mb-3">
-                Clients:
+              </h5>
+
+              <div class="card-title">
+                <strong>Clients:</strong>
                 <a
                   target="_blank"
                   href="https://www.staplespromotionalproducts.com/product/10286"
@@ -233,99 +249,104 @@
                   >Wristband</a
                 >, +25 More.
               </div>
-              <p>
+
+              <p class="card-text">
                 Artifi is a Product customization tool in which shoppers design
                 it their way. With a customizable user interface, a self-service
                 admin console, and a simple integration process, Artifi empowers
                 admins to create a one-of-a-kind virtual shopping experience.
               </p>
-              <p>
+              <p class="card-text">
                 Artifi Labs seamlessly integrates into any store and takes on
                 the look and feel of a brand.
               </p>
-              <p>
-                I am working as a Sr. Software Engineer here and responsible for the
-                front end of the product. I am one of the core team members here
-                who build this product from scratch. Now, leading the team with
-                a size of 4 team members for the Angular version of the product.
+              <p class="card-text">
+                I am working as a Sr. Software Engineer here and responsible for
+                the front end of the product. I am one of the core team members
+                here who build this product from scratch. Now, leading the team
+                with a size of 4 team members for the Angular version of the
+                product.
               </p>
-            </div>
-            <div class="project-date text-md-right">
-              <span class="text-primary">Oct 2014 - Present</span>
+
+              <p class="card-text">
+                <small class="text-muted">Oct 2014 - Present</small>
+              </p>
             </div>
           </div>
 
-          <div
-            class="project-item d-flex flex-column flex-md-row justify-content-between mb-5"
-          >
-            <div class="project-content">
-              <h3 class="mb-0">
-                <a target="_blank" href="https://www.havertys.com/">Havertys</a>
-              </h3>
-              <div class="subheading mb-3">
-                Client:
+          <div class="card mb-5">
+            <a target="_blank" href="https://www.havertys.com/"
+              ><img
+                data-src="./img/haverty.jpg"
+                class="card-img-top lazyload"
+                alt="Haverty"
+            /></a>
+            <div class="card-body">
+              <h5 class="card-title">
                 <a target="_blank" href="https://www.havertys.com/"
-                  >Havertys- USA</a
+                  >Haverty's</a
                 >
-              </div>
-              <p>
+              </h5>
+
+              <p class="card-text">
                 Haverty Furniture is one of the biggest publicly traded
                 furniture company in the USA with over 100 stores in 16 states,
                 serving millions of loyal customers online and offline.
               </p>
-              <p>
+              <p class="card-text">
                 We have created a kiosk application that suggests the best
                 sleeping solution like a Mattress of various types according to
                 data provided by the user like weight, gender, sleeping habits,
                 body structure, etc. This application was design especially for
                 the shopping malls and retail stores.
               </p>
-              <p>
+              <p class="card-text">
                 I have worked as a JavaScript developer here and responsible for
                 creating dynamic and interactive UI along with that pre and
                 post-application development support.
               </p>
-            </div>
-            <div class="project-date text-md-right">
-              <span class="text-primary">Dec 2013 - Sept 2014</span>
+
+              <p class="card-text">
+                <small class="text-muted">Dec 2013 - Sept 2014</small>
+              </p>
             </div>
           </div>
 
-          <div
-            class="project-item d-flex flex-column flex-md-row justify-content-between mb-5"
-          >
-            <div class="project-content">
-              <h3 class="mb-0">
+          <div class="card mb-5">
+            <a target="_blank" href="https://www.kingkoil.in/sleepid"
+              ><img
+                data-src="./img/sleepId.jpg"
+                class="card-img-top lazyload"
+                alt="SleepId (King Koil)"
+            /></a>
+            <div class="card-body">
+              <h5 class="card-title">
                 <a target="_blank" href="https://www.kingkoil.in/sleepid"
-                  >SleepId</a
+                  >SleepId (King Koil)</a
                 >
-              </h3>
-              <div class="subheading mb-3">
-                Client:
-                <a target="_blank" href="https://www.kingkoil.in/about"
-                  >King Koil</a
-                >
-              </div>
-              <p>
+              </h5>
+
+              <p class="card-text">
                 King Koil has been a pioneer in the mattress industry for over
                 120 years, with years of experience King Koil has been
                 developing cutting edge mattress technology to give you the best
                 night's sleep.
               </p>
-              <p>
+              <p class="card-text">
                 We have created a kiosk as well as a web application that
                 suggests the best sleeping solution like a Mattress of various
                 types according to data provided by the user like weight,
                 gender, sleeping habits, body structure, etc.
               </p>
-              <p>
+              <p class="card-text">
                 I have worked as a JavaScript developer here and responsible for
                 creating dynamic and interactive UI along with that pre and
                 post-application development support.
               </p>
-            </div>
-            <div class="project-date text-md-right">
-              <span class="text-primary">Jun 2013 - Nov 2013</span>
+
+              <p class="card-text">
+                <small class="text-muted">Jun 2013 - Nov 2013</small>
+              </p>
             </div>
           </div>
         </div>
@@ -471,11 +492,24 @@
     </div>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js" defer></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js" defer></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+      defer
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"
+      defer
+    ></script>
 
     <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js" defer></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"
+      defer
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.0/lazysizes.min.js"
+      async=""
+    ></script>
 
     <!-- Custom scripts for this template -->
     <script src="js/resume.min.js" defer></script>
