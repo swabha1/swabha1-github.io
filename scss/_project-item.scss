@@ -3,10 +3,14 @@ section.project-section {
   padding-bottom: 5rem !important;
   max-width: 75rem;
   .project-item {
-    .project-content {
-    }
     .project-date {
       min-width: none;
+    }
+  }
+
+  .card-columns {
+    .card-img-overlay {
+      background-color: rgba($color: #000000, $alpha: 0.5);
     }
   }
 }

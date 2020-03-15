@@ -1,5 +1,11 @@
 - Add projects in Portfolio site - Done
-- Change theme of site from default.
+- Change theme of site from default. - Done
+
+- Add cards for customers of Artifi - Done
+- Make experience dynamic.
+- Add resume download tab.
+- Add all the clients of Artifi.
+
 
 
 
