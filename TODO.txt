@@ -1,7 +1,8 @@
 
 TODO:
-- Add resume download tab. - Done
-- Make experience dynamic.
+
+- Make experience dynamic. - Done
+- Add side projects tab.
 - Add all the clients of Artifi.
 
 
